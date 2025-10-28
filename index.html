@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valery Malyshau</title>
+    <title data-i18n="site_title"></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
     <script src="lang/lang.js"></script>
 </head>
 <body>
 
-<section id='about' class="about-section">
+<section id="about" class="about-section">
     <div class="container">
         <h2 data-i18n="about_title"></h2>
         <img src="images/about/1.jpg" alt="About Me">
@@ -18,9 +18,8 @@
     </div>
 </section>
 
-
 <!-- Projects Section -->
-<section id="projects" class="projects-section bg-light mt-3" id="projects">
+<section id="projects" class="projects-section bg-light mt-3">
     <div class="container">
         <h2 class="text-center" data-i18n="projects_title"></h2>
         <div class="row">
@@ -28,189 +27,171 @@
                 <div class="card">
                     <img src="images/projects/ai.jpg" alt="AI image">
                     <div class="card-body">
-                        <h5 class="card-title" data-i18n="ai_proj_title"></h5>
-                        <p class="card-text" data-i18n="ai_proj_desc"></p>
+                        <h5 class="card-title" data-i18n="projects_ai_title"></h5>
+                        <p class="card-text" data-i18n="projects_ai_desc"></p>
                     </div>
                 </div>
             </div>
-            <!-- Project 2 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <img src="images/projects/lease.png" alt="Doc image">
                     <div class="card-body">
-                        <h5 class="card-title" data-i18n="">Legal document Analysis</h5>
-                        <p class="card-text">A set of neural networks to analyze scanned legal documents, find parties
-                            and payment schedules and classify data for preparing structured database entries.</p>
+                        <h5 class="card-title" data-i18n="projects_legal_title"></h5>
+                        <p class="card-text" data-i18n="projects_legal_desc"></p>
                     </div>
                 </div>
             </div>
-            <!-- Project 3 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <img src="images/projects/eeg-cap.png" alt="EEG cap">
                     <div class="card-body">
-                        <h5 class="card-title">EEG Emotion Recognition</h5>
-                        <p class="card-text">Research with aim of creating open-source emotion recognition EEG dataset
-                            and training models for domain adaptation and transfer learning across subjects.</p>
-                        <a href="https://ieeexplore.ieee.org/document/10542388"
-                           class="btn btn-secondary">Paper</a>
+                        <h5 class="card-title" data-i18n="projects_eeg_title"></h5>
+                        <p class="card-text" data-i18n="projects_eeg_desc"></p>
+                        <a href="https://ieeexplore.ieee.org/document/10542388" class="btn btn-secondary" data-i18n="projects_button_paper"></a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <!-- Project 1 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <video autoplay="" loop="" muted="" playsinline="">
+                    <video autoplay loop muted playsinline>
                         <source src="images/projects/histo.webm" type="video/mp4">
                     </video>
                     <div class="card-body">
-                        <h5 class="card-title">Histology Analysis</h5>
-                        <p class="card-text">A service to analyze whole-slide histology based semantic search of similar
-                            patch to the existing dataset. Also, supports cell detection and counting for
-                            immuno-histology.</p>
-                        <a href="https://image.org.by/histology_ui" class="btn btn-primary">Link</a>
-                        <a href="https://eumj.med.sumdu.edu.ua/index.php/journal/article/view/62"
-                           class="btn btn-secondary">Paper</a>
+                        <h5 class="card-title" data-i18n="projects_histology_title"></h5>
+                        <p class="card-text" data-i18n="projects_histology_desc"></p>
+                        <a href="https://image.org.by/histology_ui" class="btn btn-primary" data-i18n="projects_button_link"></a>
+                        <a href="https://eumj.med.sumdu.edu.ua/index.php/journal/article/view/62" class="btn btn-secondary" data-i18n="projects_button_paper"></a>
                     </div>
                 </div>
             </div>
-            <!-- Project 2 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <video autoplay="" loop="" muted="" playsinline="">
+                    <video autoplay loop muted playsinline>
                         <source src="images/projects/xray_gen.webm" type="video/mp4">
                     </video>
                     <div class="card-body">
-                        <h5 class="card-title">X-Ray Generation</h5>
-                        <p class="card-text">Trained GAN for generation of X-Rays based on the age and gender with
-                            addition of estimating the plausability of the generated image. </p>
-                        <!--                        <a href="https://image.org.by/iFactory/" class="btn btn-primary">Link</a>-->
-                        <!--                        <a href="#" class="btn btn-secondary">Paper</a>-->
+                        <h5 class="card-title" data-i18n="projects_xraygen_title"></h5>
+                        <p class="card-text" data-i18n="projects_xraygen_desc"></p>
                     </div>
                 </div>
             </div>
-            <!-- Project 3 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <video autoplay="" loop="" muted="" playsinline="">
+                    <video autoplay loop muted playsinline>
                         <source src="images/projects/xray_lung.webm" type="video/mp4">
                     </video>
                     <div class="card-body">
-                        <h5 class="card-title">Lung disease classification</h5>
-                        <p class="card-text">A service to predict the pulmonary diseases on X-Ray with the attention
-                            mask for interpretability.</p>
-                        <a href="https://image.org.by/xray_lung" class="btn btn-primary">Link</a>
-                        <a href="https://www.researchgate.net/publication/333312169_A_Comparison_of_Segmentation_Methods_Based_on_Image_Registration_and_Convolutional_Neural_Networks"
-                           class="btn btn-secondary">Paper</a>
+                        <h5 class="card-title" data-i18n="projects_lung_title"></h5>
+                        <p class="card-text" data-i18n="projects_lung_desc"></p>
+                        <a href="https://image.org.by/xray_lung" class="btn btn-primary" data-i18n="projects_button_link"></a>
+                        <a href="https://www.researchgate.net/publication/333312169_A_Comparison_of_Segmentation_Methods_Based_on_Image_Registration_and_Convolutional_Neural_Networks" class="btn btn-secondary" data-i18n="projects_button_paper"></a>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 
 <!-- Skills Section -->
-<section id="skills" class="skills-section bg-white mt-3" id="skills">
+<section id="skills" class="skills-section bg-white mt-3">
     <div class="container">
-        <h2 class="text-center">Skills</h2>
-        <div class="row ">
+        <h2 class="text-center" data-i18n="skills_title"></h2>
+        <div class="row">
             <div class="col-lg-2 col-md-4 mb-4">
                 <div class="card">
                     <img src="images/skills/python.png" class="card-img-top" alt="Python">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Python</h5>
+                        <h5 class="card-title" data-i18n="skills_python"></h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 mb-4">
                 <div class="card">
-                    <img src="images/skills/ai.png" class="card-img-top" alt="Python">
+                    <img src="images/skills/ai.png" class="card-img-top" alt="AI">
                     <div class="card-body text-center">
-                        <h5 class="card-title">AI Engineering</h5>
+                        <h5 class="card-title" data-i18n="skills_ai_engineering"></h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 mb-4">
                 <div class="card">
-                    <img src="images/skills/ml.png" class="card-img-top" alt="Python">
+                    <img src="images/skills/ml.png" class="card-img-top" alt="Machine Learning">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Machine Learning</h5>
+                        <h5 class="card-title" data-i18n="skills_ml"></h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 mb-4">
                 <div class="card">
-                    <img src="images/skills/nlp.png" class="card-img-top" alt="Python">
+                    <img src="images/skills/nlp.png" class="card-img-top" alt="NLP">
                     <div class="card-body text-center">
-                        <h5 class="card-title">NLP</h5>
+                        <h5 class="card-title" data-i18n="skills_nlp"></h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 mb-4">
                 <div class="card">
-                    <img src="images/skills/aws.webp" class="card-img-top" alt="Python">
+                    <img src="images/skills/aws.webp" class="card-img-top" alt="AWS">
                     <div class="card-body text-center">
-                        <h5 class="card-title">AWS</h5>
+                        <h5 class="card-title" data-i18n="skills_aws"></h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 mb-4">
                 <div class="card">
-                    <img src="images/skills/flask.png" class="card-img-top" alt="Python">
+                    <img src="images/skills/flask.png" class="card-img-top" alt="Flask">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Flask</h5>
+                        <h5 class="card-title" data-i18n="skills_flask"></h5>
                     </div>
                 </div>
             </div>
-            <!-- Second row -->
             <div class="col-lg-2 col-md-4 mb-4">
                 <div class="card">
-                    <img src="images/skills/cv.png" class="card-img-top" alt="Python">
+                    <img src="images/skills/cv.png" class="card-img-top" alt="Computer Vision">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Computer Vision</h5>
+                        <h5 class="card-title" data-i18n="skills_cv"></h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 mb-4">
                 <div class="card">
-                    <img src="images/skills/eeg.png" class="card-img-top" alt="Python">
+                    <img src="images/skills/eeg.png" class="card-img-top" alt="Signal Processing">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Signal Processing</h5>
+                        <h5 class="card-title" data-i18n="skills_signal"></h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 mb-4">
                 <div class="card">
-                    <img src="images/skills/sql.png" class="card-img-top" alt="Data Visualization">
-                    <div class="card-body">
-                        <h5 class="card-title">SQL</h5>
+                    <img src="images/skills/sql.png" class="card-img-top" alt="SQL">
+                    <div class="card-body text-center">
+                        <h5 class="card-title" data-i18n="skills_sql"></h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 mb-4">
                 <div class="card">
-                    <img src="images/skills/cpp.png" class="card-img-top" alt="SQL">
-                    <div class="card-body">
-                        <h5 class="card-title">C++</h5>
+                    <img src="images/skills/cpp.png" class="card-img-top" alt="C++">
+                    <div class="card-body text-center">
+                        <h5 class="card-title" data-i18n="skills_cpp"></h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 mb-4">
                 <div class="card">
-                    <img src="images/skills/typescript.png" class="card-img-top" alt="Data Storytelling">
-                    <div class="card-body">
-                        <h5 class="card-title">TypeScript</h5>
+                    <img src="images/skills/typescript.png" class="card-img-top" alt="TypeScript">
+                    <div class="card-body text-center">
+                        <h5 class="card-title" data-i18n="skills_typescript"></h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 mb-4">
                 <div class="card">
-                    <img src="images/skills/angular.png" class="card-img-top" alt="Data Storytelling">
-                    <div class="card-body">
-                        <h5 class="card-title">Angular</h5>
+                    <img src="images/skills/angular.png" class="card-img-top" alt="Angular">
+                    <div class="card-body text-center">
+                        <h5 class="card-title" data-i18n="skills_angular"></h5>
                     </div>
                 </div>
             </div>
@@ -220,7 +201,7 @@
 
 <section id="publications" class="projects-section bg-light mt-3">
     <div class="container">
-        <h2 class="text-center">Publications</h2>
+        <h2 class="text-center" data-i18n="publications"></h2>
         <div class="row">
             <div class="col">
                 <ul>
@@ -274,10 +255,10 @@
     </div>
 </section>
 
-<!-- Contact Me Section -->
+<!-- Contact Section -->
 <section id="contact" class="contact-section text-center text-white bg-dark">
     <div class="container-fluid">
-        <h2>Contact Me</h2>
+        <h2 data-i18n="contact_title"></h2>
         <div class="row">
             <div class="col-lg-12">
                 <p><i class="fas fa-envelope"></i> malyshevalery@gmail.com</p>
@@ -322,30 +303,17 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#home">Valery Malyshau</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="Publications">
-                    <a class="nav-link" href="#publications">Publications</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="#home" data-i18n="home"></a></li>
+                <li class="nav-item"><a class="nav-link" href="#about" data-i18n="about"></a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects" data-i18n="projects"></a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills" data-i18n="skills"></a></li>
+                <li class="nav-item"><a class="nav-link" href="#publications" data-i18n="publications"></a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="contact"></a></li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.html" onclick="changeLanguage('en')">
                         <img height="30" src="icons/lang/us.png" alt="English">
@@ -361,8 +329,6 @@
     </div>
 </nav>
 
-
-<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
