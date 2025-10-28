@@ -1,3 +1,7 @@
 {
-  "about_title": "About"
+  "about_title": "About",
+  "about_p": "I’m Valery Malyshau, an experienced Data Scientist with foundations in deep learning, biomedical imaging, and high-performance computing. Over 7 years of hands-on experience developing machine learning solutions across industries—from medical diagnostics and legal NLP to AI model training and image enhancement. I’ve had the opportunity to lead technical teams and deploy AI-powered tools and services.",
+  "projects_title": "Projects",
+  "ai_proj_title": "AI Data processing",
+  "ai_proj_desc": "Led a team, processing data for training AI models. Developed AI agents to streamline data generation and processing."
 }
